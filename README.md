@@ -22,3 +22,12 @@ $ dokku proxy:disable valheim-server
 $ dokku docker-options add valheim-server deploy "--network=host"
 $ dokku checks:disable valheim-server
 ```
+
+Make sure the server ports are allowed:
+
+```sh
+$ ufw allow 2456
+$ ufw allow 2457
+$ ufw allow 2458
+$ ufw allow 27015
+```
