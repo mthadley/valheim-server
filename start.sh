@@ -14,7 +14,7 @@ bash "$STEAMCMDDIR/steamcmd.sh" \
 
 
 # Some junk found in the start script distributed with the dedicated server
-# steam pacakge. Not sure which of these are actually needed.
+# steam package. Not sure which of these are actually needed.
 export templdpath=$LD_LIBRARY_PATH
 export LD_LIBRARY_PATH=./linux64:$LD_LIBRARY_PATH
 export SteamAppId=892970 # Why is this needed?

@@ -1,6 +1,9 @@
 #!/usr/bin/env bash
+#
+# A test script for validating the docker image locally.
+#
 
-# build image
+# Build the image
 docker build -t valheim .
 
 # Run it!
