@@ -26,7 +26,6 @@ cd "$STEAM_APP_DIR"
 #     NOTE: Minimum password length is 5 characters & Password cant be in the server name.
 #
 ./valheim_server.x86_64 \
-  -no-graphics \
   -name "$GAME_SERVER_NAME" \
   -port 2456 \
   -world "$WORLD_NAME" \
